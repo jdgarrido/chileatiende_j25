@@ -16,5 +16,5 @@ Instalación
 Roadmap
 =======
 
-28-Agosto - Se agrega campo customizado listado de Servicios
-27-Agosto - Inicio Proyecto
+- 28-Agosto - Se agrega campo customizado listado de Servicios
+- 27-Agosto - Inicio Proyecto
