@@ -26,7 +26,7 @@
  
     <!-- Optional parameters -->
     <config>
-        <fields name="params">
+        <fields name="params" addfieldpath="/modules/mod_chileatiende/elements/">
             <fieldset name="basic">
                 <field 
                     name="moduleclass_sfx" 
@@ -43,148 +43,15 @@
                     label="MOD_CHILEATIENDE_ACCESS_TOKEN_LABEL"
                     description="MOD_CHILEATIENDE_ACCESS_TOKEN_DESC">
                 </field>
-					
+                
                 <field
                     name="servicio"
-                    type="list"
-                    defaul="0"
+                    type="servicios"
+                    default="0"
                     label="MOD_CHILEATIENDE_SERVICIOS_LABEL"
                     description="MOD_CHILEATIENDE_SERVICIOS_DESC">
-                    <option value="0">MOD_CHILEATIENDE_SERVICIO_DEFAULT</option>
-                    <option value="AC004" >MOD_CHILEATIENDE_SERVICIO_AC004</option>
-                    <option value="ZC001" >MOD_CHILEATIENDE_SERVICIO_ZC001</option>
-                    <option value="AO998" >MOD_CHILEATIENDE_SERVICIO_AO998</option>
-                    <option value="ZA001" >MOD_CHILEATIENDE_SERVICIO_ZA001</option>
-                    <option value="AD015" >MOD_CHILEATIENDE_SERVICIO_AD015</option>
-                    <option value="AD009" >MOD_CHILEATIENDE_SERVICIO_AD009</option>
-                    <option value="AN998" >MOD_CHILEATIENDE_SERVICIO_AN998</option>
-                    <option value="ZZ001" >MOD_CHILEATIENDE_SERVICIO_ZZ001</option>
-                    <option value="AJ004" >MOD_CHILEATIENDE_SERVICIO_AJ004</option>
-                    <option value="AU003" >MOD_CHILEATIENDE_SERVICIO_AU003</option>
-                    <option value="AS002" >MOD_CHILEATIENDE_SERVICIO_AS002</option>
-                    <option value="AO999" >MOD_CHILEATIENDE_SERVICIO_AO999</option>
-                    <option value="AF999" >MOD_CHILEATIENDE_SERVICIO_AF999</option>
-                    <option value="AJ008" >MOD_CHILEATIENDE_SERVICIO_AJ008</option>
-                    <option value="AR002" >Comisión Nacional de Riego</option>
-                    <option value="AH003" >Comité de Inversiones Extranjeras</option>
-                    <option value="AH999" >Comité Innova Bío Bío</option>
-                    <option value="ZC006" >Comité Seguro Agrícola</option>
-                    <option value="AJ007" >Consejo de Calificación Cinematográfica</option>
-                    <option value="AX001" >Consejo de Defensa del Estado</option>
-                    <option value="AJ003" >Consejo Nacional de Educación</option>
-                    <option value="AV001" >Consejo Nacional de la Cultura y las Artes</option>
-                    <option value="AG003" >Consejo Nacional de Televisión</option>
-                    <option value="ZC002" >Conservador de Bienes Raíces de Santiago</option>
-                    <option value="AK008" >Corporación de Asistencia Judicial Región Metropolitana</option>
-                    <option value="AH004" >Corporación de Fomento de la Producción</option>
-                    <option value="AI002" >Corporación Nacional de Desarrollo Indígena</option>
-                    <option value="ZC005" >Corporación Nacional Forestal</option>
-                    <option value="ZA002" >CorreosChile</option>
-                    <option value="AD012" >Defensa Civil de Chile</option>
-                    <option value="AK005" >Defensoría Penal Pública</option>
-                    <option value="ZA003" >Diario Oficial</option>
-                    <option value="AM004" >Dirección de Aeropuertos</option>
-                    <option value="AM005" >Dirección de Arquitectura</option>
-                    <option value="AJ005" >Dirección de Bibliotecas, Archivos y Museos</option>
-                    <option value="AE011" >Dirección de Compras y Contratación Pública</option>
-                    <option value="AM007" >Dirección de Obras Hidráulicas</option>
-                    <option value="AM008" >Dirección de Obras Portuarias</option>
-                    <option value="AM009" >Dirección de Planeamiento </option>
-                    <option value="AE002" >Dirección de Presupuestos</option>
-                    <option value="AD016" >Dirección de Previsión de Carabineros de Chile</option>
-                    <option value="AM010" >Dirección de Vialidad</option>
-                    <option value="AL003" >Dirección del Trabajo</option>
-                    <option value="AD020" >Dirección General de Aeronáutica Civil</option>
-                    <option value="AM006" >Dirección General de Aguas</option>
-                    <option value="AL004" >Dirección General de Crédito Prendario</option>
-                    <option value="AD013" >Dirección General de Movilización Nacional</option>
-                    <option value="AM002" >Dirección General de Obras Públicas</option>
-                    <option value="AD014" >Dirección General del Territorio Marítimo y Marina Mercante</option>
-                    <option value="AC003" >Dirección Nacional de Fronteras y Límites del Estado</option>
-                    <option value="ZA006" >Empresa de Ferrocarriles del Estado</option>
-                    <option value="ZA005" >Empresa Nacional de Mineria</option>
-                    <option value="AH005" >Fiscalía Nacional Económica</option>
-                    <option value="AI004" >Fondo de Solidaridad e Inversión Social</option>
-                    <option value="AO004" >Fondo Nacional de Salud</option>
-                    <option value="ZB002" >Fundación de Comunicaciones, Capacitación y Cultura</option>
-                    <option value="ZB003" >Fundación de la Familia</option>
-                    <option value="ZB004" >Fundación Integra</option>
-                    <option value="ZB001" >Fundación para la Innovación Agraria</option>
-                    <option value="ZB006" >Fundación Prodemu</option>
-                    <option value="AK006" >Gendarmería de Chile</option>
-                    <option value="AC005" >Instituto Antártico Chileno</option>
-                    <option value="AR004" >Instituto de Desarrollo Agropecuario</option>
-                    <option value="AL005" >Instituto de Previsión Social</option>
-                    <option value="AO005" >Instituto de Salud Pública</option>
-                    <option value="AL006" >Instituto de Seguridad Laboral</option>
-                    <option value="AH007" >Instituto Nacional de Estadísticas</option>
-                    <option value="AM012" >Instituto Nacional de Hidráulica</option>
-                    <option value="AI005" >Instituto Nacional de la Juventud</option>
-                    <option value="ZC007" >Instituto Nacional de Normalización</option>
-                    <option value="AY001" >Instituto Nacional de Propiedad Industrial</option>
-                    <option value="AG002" >Instituto Nacional del Deporte</option>
-                    <option value="AN003" >Junta de Aeronáutica Civil</option>
-                    <option value="AJ009" >Junta Nacional de Auxilio Escolar y Becas</option>
-                    <option value="AJ010" >Junta Nacional de Jardines Infantiles</option>
-                    <option value="ZA004" >Metro S.A.</option>
-                    <option value="AR000" >Ministerio de Agricultura</option>
-                    <option value="AI000" >Ministerio de Desarrollo Social</option>
-                    <option value="AJ000" >Ministerio de Educación</option>
-                    <option value="AU000" >Ministerio de Energía</option>
-                    <option value="AK000" >Ministerio de Justicia</option>
-                    <option value="AC000" >Ministerio de Relaciones Exteriores</option>
-                    <option value="AO000" >Ministerio de Salud</option>
-                    <option value="AP000" >Ministerio de Vivienda y Urbanismo</option>
-                    <option value="AW000" >Ministerio del Medio Ambiente</option>
-                    <option value="AL000" >Ministerio del Trabajo</option>
-                    <option value="ZB005" >Museo Interactivo Mirador</option>
-                    <option value="AP017" >Parque Metropolitano de Santiago</option>
-                    <option value="ZD001" >Poder Judicial</option>
-                    <option value="AD010" >Policía de Investigaciones</option>
-                    <option value="AA001" >Presidencia de la República</option>
-                    <option value="ZC008" >Promoción de Exportación</option>
-                    <option value="AR006" >Servicio Agrícola y Ganadero</option>
-                    <option value="AH012" >Servicio de Cooperación Técnica </option>
-                    <option value="AE006" >Servicio de Impuestos Internos</option>
-                    <option value="AK002" >Servicio de Registro Civil e Identificación</option>
-                    <option value="AB006" >Servicio Electoral</option>
-                    <option value="AW004" >Servicio Evaluación Ambiental</option>
-                    <option value="AD019" >Servicio Hidrográfico y Oceanográfico de la Armada</option>
-                    <option value="AK003" >Servicio Médico Legal</option>
-                    <option value="AE007" >Servicio Nacional de Aduanas</option>
-                    <option value="AL007" >Servicio Nacional de Capacitación y Empleo</option>
-                    <option value="AS004" >Servicio Nacional de Geología y Minería</option>
-                    <option value="AI003" >Servicio Nacional de la Discapacidad</option>
-                    <option value="AT001" >Servicio Nacional de la Mujer</option>
-                    <option value="AK004" >Servicio Nacional de Menores</option>
-                    <option value="AH010" >Servicio Nacional de Pesca</option>
-                    <option value="AH008" >Servicio Nacional de Turismo</option>
-                    <option value="AI006" >Servicio Nacional del Adulto Mayor</option>
-                    <option value="AH009" >Servicio Nacional del Consumidor</option>
-                    <option value="AP006" >SERVIU Región de Valparaíso</option>
-                    <option value="AQ001" >Subsecretaría de Bienes Nacionales</option>
-                    <option value="AB002" >Subsecretaría de Desarrollo Regional</option>
-                    <option value="AH001" >Subsecretaría de Economía y Empresa de Menor Tamaño</option>
-                    <option value="AE001" >Subsecretaría de Hacienda </option>
-                    <option value="AH002" >Subsecretaría de Pesca</option>
-                    <option value="AN002" >Subsecretaría de Telecomunicaciones</option>
-                    <option value="AN001" >Subsecretaría de Transportes</option>
-                    <option value="AB001" >Subsecretaría del Interior</option>
-                    <option value="AD022" >Subsecretaría para las Fuerzas Armadas</option>
-                    <option value="AE008" >Superintendencia de Bancos e Instituciones Financieras</option>
-                    <option value="AE012" >Superintendencia de Casinos de Juego</option>
-                    <option value="AU004" >Superintendencia de Electricidad y Combustibles</option>
-                    <option value="AL008" >Superintendencia de Pensiones</option>
-                    <option value="AK007" >Superintendencia de Quiebras</option>
-                    <option value="AO006" >Superintendencia de Salud</option>
-                    <option value="AL009" >Superintendencia de Seguridad Social</option>
-                    <option value="AM011" >Superintendencia de Servicios Sanitarios</option>
-                    <option value="AE009" >Superintendencia de Valores y Seguros</option>
-                    <option value="AE003" >Tesorería General de la República</option>
-                    <option value="AN999" >Unidad Operativa de Control de Tránsito</option>
-						
                 </field>
-                     
+					
                 <field 
                     name="fichas" 
                     type="text" 
@@ -200,7 +67,15 @@
                     label="MOD_CHILEATIENDE_NROFICHAS_LABEL" 
                     description="MOD_CHILEATIENDE_NROFICHAS_DESC">
                 </field>
-                    
+            </fieldset>
+            <fieldset name="advanced">
+                <field
+                    name="moduleclass_sfx"
+                    type="text"
+                    default=""
+                    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                    description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC">
+                </field>
             </fieldset>
         </fields>
     </config>

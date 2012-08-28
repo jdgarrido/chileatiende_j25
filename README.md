@@ -12,3 +12,9 @@ Instalación
 * Ingresar al Gestor de Módulos y buscar el módulo ChileAtiende
 * Configurar el Módulo (habilitar el módulo, agregar la posición, ingresasr el access_token y seleccionar el Servicio)
 * Adaptar a las necesidades :)
+
+Roadmap
+=======
+
+28-Agosto - Se agrega campo customizado listado de Servicios
+27-Agosto - Inicio Proyecto
