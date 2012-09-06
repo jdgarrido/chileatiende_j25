@@ -13,8 +13,14 @@ Instalación
 * Configurar el Módulo (habilitar el módulo, agregar la posición, ingresasr el access_token y seleccionar el Servicio)
 * Adaptar a las necesidades :)
 
+Licencia
+========
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_CL"><img alt="Licencia Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es_CL">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 3.0 Unported</a>.
+
 Roadmap
 =======
 
-- 28-Agosto - Se agrega campo customizado listado de Servicios
-- 27-Agosto - Inicio Proyecto
+* 6-Septiembre - Se agrega licencia
+* 28-Agosto - Se agrega campo customizado listado de Servicios
+* 27-Agosto - Inicio Proyecto
